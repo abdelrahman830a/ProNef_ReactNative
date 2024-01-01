@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "nft_reactnative",
-    "slug": "nft_reactnative",
+    "slug": "nft-reactnative",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.abdelrahmanzaitoun39.nft_reactnative"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "82572381-e513-4766-b246-8871ed2033f2"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/82572381-e513-4766-b246-8871ed2033f2"
     }
   }
 }
